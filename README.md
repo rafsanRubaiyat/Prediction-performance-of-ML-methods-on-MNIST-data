@@ -23,3 +23,46 @@ The specific goals I’ve set for the project are:
 ## 3. Optimize and tune each model to achieve the best possible classification accuracy.
 
 ## 4. Provide a comprehensive analysis and compare their performances.
+### Results: 
+<table>
+  <tr>
+    <th>Method</th>
+    <th>Accuracy</th>
+    <th>Misclassification Rate</th>
+  </tr>
+  <tr>
+    <td>Multinomial Logistic Regression</td>
+    <td>0.899</td>
+    <td>11%</td>
+  </tr>
+  <tr>
+    <td>Decision Trees</td>
+    <td>0.8047</td>
+    <td>20%</td>
+  </tr>
+    <tr>
+    <td>Random Forests</td>
+    <td>0.925</td>
+    <td>7.5%</td>
+  </tr>
+    <tr>
+    <td>Support Vector Machine</td>
+    <td>0.937</td>
+    <td>6.3%</td>
+  </tr>
+    <tr>
+    <td>Linear Discriminant Analysis</td>
+    <td>0.845</td>
+    <td>15.5%</td>
+  </tr>
+    <tr>
+    <td>Deep Neural Network</td>
+    <td>0.9287</td>
+    <td>7.1%</td>
+  </tr>
+    <tr>
+    <td>Convolutional Neural Network</td>
+    <td>0.9784</td>
+    <td>2.2%</td>
+  </tr>
+</table>
