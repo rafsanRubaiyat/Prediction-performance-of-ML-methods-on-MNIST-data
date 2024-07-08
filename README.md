@@ -12,10 +12,10 @@ to push the boundaries of accuracy by employing more sophisticated models and te
 The specific goals I’ve set for the project are:
 
 ## 1. Compare the prediction performance of various models:
-(a) Multinomial Logistic Regression (with Lasso, Ridge, and Elastic Net)
-(b) Decision Trees and Random Forests
-(c) Multi-class Support Vector Machine (SVM)
-(d) Multi-class Linear Discriminant Analysis (LDA)
+(a) Multinomial Logistic Regression (with Lasso, Ridge, and Elastic Net) <br>
+(b) Decision Trees and Random Forests<br>
+(c) Multi-class Support Vector Machine (SVM)<br>
+(d) Multi-class Linear Discriminant Analysis (LDA)<br>
 (e) Deep Neural Network (DNN and CNN)
 
 ## 2. Describe the working procedures of the algorithms, and rationale for choosing them.
