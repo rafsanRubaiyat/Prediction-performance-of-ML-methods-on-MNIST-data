@@ -11,19 +11,19 @@ probabilistic model, which achieved a misclassification rate of about 22%, this 
 to push the boundaries of accuracy by employing more sophisticated models and techniques.
 The specific goals I’ve set for the project are:
 
-## 1. Compare the prediction performance of various models:
+### 1. Compare the prediction performance of various models:
 (a) Multinomial Logistic Regression (with Lasso, Ridge, and Elastic Net) <br>
 (b) Decision Trees and Random Forests<br>
 (c) Multi-class Support Vector Machine (SVM)<br>
 (d) Multi-class Linear Discriminant Analysis (LDA)<br>
 (e) Deep Neural Network (DNN and CNN)
 
-## 2. Describe the working procedures of the algorithms, and rationale for choosing them.
+### 2. Describe the working procedures of the algorithms, and rationale for choosing them.
 
-## 3. Optimize and tune each model to achieve the best possible classification accuracy.
+### 3. Optimize and tune each model to achieve the best possible classification accuracy.
 
-## 4. Provide a comprehensive analysis and compare their performances.
-### Results: 
+### 4. Provide a comprehensive analysis and compare their performances.
+#### Results: 
 <table>
   <tr>
     <th>Method</th>
@@ -61,8 +61,10 @@ The specific goals I’ve set for the project are:
     <td>7.1%</td>
   </tr>
     <tr>
-    <td>Convolutional Neural Network</td>
+    <td>Convolutional Neural Network</td> 
     <td>0.9784</td>
     <td>2.2%</td>
   </tr>
 </table>
+
+## Please read the ML_classification_methods_performance_report.pdf for the algorithms, cross validation scores and more details. 
