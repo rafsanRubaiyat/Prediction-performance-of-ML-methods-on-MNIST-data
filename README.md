@@ -1,3 +1,5 @@
+## Please read the ML_classification_methods_performance_report.pdf for the algorithms, cross validation scores and more details. 
+
 The MNIST dataset is a benchmark in the field of statistics, machine learning and computer
 vision, consisting of 70,000 grayscale images of handwritten digits, each of size 28x28 pixels,
 with each image labeled from 0 to 9. For our exercises, we have 10,000 images’ data as the
@@ -67,4 +69,34 @@ The specific goals I’ve set for the project are:
   </tr>
 </table>
 
-## Please read the ML_classification_methods_performance_report.pdf for the algorithms, cross validation scores and more details. 
+### Result Analysis and remarks 
+Not surprisingly, the Convolutional Neural Network (CNN) outperforms all other models
+with a misclassification rate of only 2.2%. This superior performance can be attributed
+to CNN’s ability to capture spatial hierarchies and local dependencies in the image data,
+making it highly effective for image classification tasks like MNIST.
+The Deep Neural Network (DNN) also shows strong performance with a misclassification
+rate of 7.1%.
+The Support Vector Machine (SVM) achieves an accuracy of 0.937 and a misclassification
+rate of 6.3%. SVMs are powerful classifiers that perform well on high-dimensional data, but
+they lack the spatial feature extraction capabilities of CNNs.
+Random Forests achieve a misclassification rate of 7.5%. As an ensemble method, Random Forests combine the predictions of multiple decision trees, leading to better generalization than individual Decision Trees, which have a misclassification rate of 20%.
+Multinomial Logistic Regression and Linear Discriminant Analysis (LDA) achieve misclassification rates of 11% and 15.5%, respectively. While these linear models are simpler
+and faster to train, they are less capable of capturing the complex patterns in image data
+compared to non-linear models like CNNs and SVMs.
+
+#### Rationale for Model Selection
+Given the results:
+• Use CNNs for the best performance in image classification tasks like MNIST due to
+their ability to capture spatial hierarchies and local dependencies.
+• Consider DNNs if computational resources are limited, as they still provide strong
+performance without the same level of complexity as CNNs.
+• Use SVMs and Random Forests if a balance between accuracy and interpretability
+is needed, and when computational efficiency is a priority.
+• Use Decision Trees, Logistic Regression or LDA only for simpler, less complex
+classification tasks or when quick, interpretable models are required.
+Overall, CNNs are recommended for the highest accuracy in MNIST classification, but
+the choice of model should also consider the specific requirements and constraints of the task
+at hand.
+
+
+
