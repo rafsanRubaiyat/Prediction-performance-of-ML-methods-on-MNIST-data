@@ -87,13 +87,13 @@ compared to non-linear models like CNNs and SVMs.
 #### Rationale for Model Selection
 Given the results:
 • Use CNNs for the best performance in image classification tasks like MNIST due to
-their ability to capture spatial hierarchies and local dependencies.
+their ability to capture spatial hierarchies and local dependencies. <br>
 • Consider DNNs if computational resources are limited, as they still provide strong
-performance without the same level of complexity as CNNs.
+performance without the same level of complexity as CNNs. <br>
 • Use SVMs and Random Forests if a balance between accuracy and interpretability
-is needed, and when computational efficiency is a priority.
+is needed, and when computational efficiency is a priority. <br> 
 • Use Decision Trees, Logistic Regression or LDA only for simpler, less complex
-classification tasks or when quick, interpretable models are required.
+classification tasks or when quick, interpretable models are required. <br> 
 Overall, CNNs are recommended for the highest accuracy in MNIST classification, but
 the choice of model should also consider the specific requirements and constraints of the task
 at hand.
